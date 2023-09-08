@@ -27,6 +27,20 @@
         h3.style.color = 'blue';
         h3.innerText = 'I\'m a blue h3!';
         container.appendChild(h3);
+
+        const pinkDiv = document.createElement('div');
+        pinkDiv.style.border = '1px solid black';
+        pinkDiv.style.backgroundColor = 'pink';
+
+        const h1 = document.createElement('h1');
+        h1.innerText = 'I\'m a div';
+        pinkDiv.appendChild(h1);
+
+        const paragraphMeToo = document.createElement('p');
+        paragraphMeToo.innerText = 'ME TOO!';
+        pinkDiv.appendChild(paragraphMeToo);
+
+        container.appendChild(pinkDiv);
     </script>
 </body>
 </html>
